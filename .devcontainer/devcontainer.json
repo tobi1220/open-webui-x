@@ -1,0 +1,29 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/python:2-3.14-trixie",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"nodeGypDependencies": true,
+			"version": "latest",
+			"pnpmVersion": "latest",
+			"nvmVersion": "latest"
+		},
+		"ghcr.io/devcontainers-extra/features/uv:1": {
+			"version": "latest"
+		}
+	},
+  "customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+        "ecmel.vscode-html-css",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "ms-python.vscode-python-envs",
+        "svelte.svelte-vscode",
+        "bradlc.vscode-tailwindcss",
+        "ms-python.black-formatter"
+			]
+		}
+	}
+}
